@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookToRead</title>
+    <link rel="stylesheet" href="Book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar">
+        <h1><i>BOOK HUB<i></i></h1>
+        <h3><i> Save your favourites</i><h3>
+                </div>
+    <div id="content" class="container">
+        <div id="book-container" class="book-section">
+        <h2>Good Minds</h2>
+        <h5>Author:Vandhana</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, id impedit repellendus, consequatur repudiandae fugit ipsa porro necessitatibus perferendis voluptate quo doloremque aliquam commodi voluptas cumque molestias eius magnam mollitia!</p>
+    <button onclick="deletebook(event)">Delete</button>
+    </div>
+    </div>
+    <div id="popup-overlay" class="popup">
+        <div id="popup-box" class="popupbox">
+            <h2>Add Book</h2>
+            <form>
+                <input type="text" placeholder="Book Title" id="book-tit"><br>
+                <input type="text" placeholder="Author" id="book-tit-au"><br>
+                <textarea placeholder="Description" id="book-des"></textarea><br>
+                <button id="add">Add</button>
+                <button id="del">Cancel</button>
+                </form>
+        </div>
+    </div>
+    <button class="add-button" id="add-pop-up">+</button>
+    <script src="Booksy.js"></script>
+</body>
+</html>
